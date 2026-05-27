@@ -2003,26 +2003,26 @@
               @mouseleave.stop="pauseVideo(1)"
             >
               <img
-                src="../assets/img/视频1.jpg"
+                src="https://i1.hdslb.com/bfs/archive/d4b1bf651d827dd2f24fc5bcdcb3f38995a314c1.jpg"
                 style="border-radius: 10px"
                 alt="Video Cover"
                 ref="videoCover1"
               />
-              <video
-                src="../assets/video/视频1.mp4"
-                poster="../assets/img/视频1.jpg"
-                style="border-radius: 10px"
-                autoplay
-                muted
+              <iframe
+                v-if="hoveredVideo === 1"
+                src="https://player.bilibili.com/player.html?bvid=BV14TLA6FEBf&autoplay=1&high_quality=1&danmaku=0"
+                style="border-radius: 10px; border: 0; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"
+                allowfullscreen
+                scrolling="no"
                 ref="video1"
-              ></video>
+              ></iframe>
             </div>
             <div style="padding-top: 10px">
               <h3
-                title="红莲：恶魔耀光木格乌鸦三星一出 兄弟们要不按顺序点了吧"
+                title="《异环》安魂曲角色短片丨晚安，我温柔的星光"
                 style="font-weight: 400; font-size: 15px"
               >
-                红莲：恶魔耀光木格乌鸦三星一出 兄弟们要不按顺序点了吧
+                《异环》安魂曲角色短片丨晚安，我温柔的星光
               </h3>
               <div style="padding-top: 4px; align-items: center">
                 <!---->
@@ -2057,11 +2057,11 @@
                     <!--]-->
                   </svg>
                   <span
-                    title="黑黑黑黑莲"
+                    title="异环"
                     style="color: lightgray; align-items: center"
-                    >黑黑黑黑莲</span
+                    >异环</span
                   >
-                  <span style="color: lightgray">· 10-5</span>
+                  <span style="color: lightgray">· 05-27</span>
                 </span>
                 <!--]-->
               </div>
@@ -2074,26 +2074,26 @@
               @mouseleave.stop="pauseVideo(2)"
             >
               <img
-                src="../assets/img/视频2.jpg"
+                src="https://i1.hdslb.com/bfs/archive/b1476bed76ab8ca677e2d1ca7addc37ee8a682c7.jpg"
                 style="border-radius: 10px"
                 alt="Video Cover"
                 ref="videoCover2"
               />
-              <video
-                src="../assets/video/视频2.mp4"
-                poster="../assets/img/视频2.jpg"
-                style="border-radius: 10px"
-                autoplay
-                muted
+              <iframe
+                v-if="hoveredVideo === 2"
+                src="https://player.bilibili.com/player.html?bvid=BV1yVVw6EEBE&autoplay=1&high_quality=1&danmaku=0"
+                style="border-radius: 10px; border: 0; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"
+                allowfullscreen
+                scrolling="no"
                 ref="video2"
-              ></video>
+              ></iframe>
             </div>
             <div style="padding-top: 10px">
               <h3
-                title="《堕落之主》游戏体验，3A类魂新作来了！往返于双重世界的持灯者！"
+                title="聪明的猫是要多承担一点的…"
                 style="font-size: 15px"
               >
-                《堕落之主》游戏体验，3A类魂新作来了！往返于双重世界的持灯者！
+                聪明的猫是要多承担一点的…
               </h3>
               <div style="display: flex; align-items: center">
                 <div
@@ -2107,16 +2107,16 @@
                   <span style="background: #fff0e3"> 已关注 </span>
                 </div>
                 <span
-                  title="紫雨carol"
+                  title="亮亮也是酿酿"
                   style="
                     color: lightgray;
                     align-items: center;
                     padding-top: 12px;
                   "
-                  >紫雨carol</span
+                  >亮亮也是酿酿</span
                 >
                 <span style="color: lightgray; padding-top: 12px"
-                  >· 17小时前</span
+                  >· 05-26</span
                 >
               </div>
             </div>
@@ -2128,26 +2128,26 @@
               @mouseleave.stop="pauseVideo(3)"
             >
               <img
-                src="../assets/img/视频3.jpg"
+                src="https://i2.hdslb.com/bfs/archive/2d99f0a2ffb98a26b0feae21b8b2cde1a9e99b1c.jpg"
                 style="border-radius: 10px"
                 alt="Video Cover"
                 ref="videoCover3"
               />
-              <video
-                src="../assets/video/视频3.mp4"
-                poster="../assets/img/视频3.jpg"
-                style="border-radius: 10px"
-                autoplay
-                muted
+              <iframe
+                v-if="hoveredVideo === 3"
+                src="https://player.bilibili.com/player.html?bvid=BV1vYVw6vEuE&autoplay=1&high_quality=1&danmaku=0"
+                style="border-radius: 10px; border: 0; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"
+                allowfullscreen
+                scrolling="no"
                 ref="video3"
-              ></video>
+              ></iframe>
             </div>
             <div style="padding-top: 10px">
               <h3
-                title="今天老九门开会是吧 |【海东老师】 2023年10月9日直播"
+                title="【原创短剧】第二季01：飞升失败 开局成为人渣"
                 style="font-size: 15px"
               >
-                今天老九门开会是吧 |【海东老师】 2023年10月9日直播
+                【原创短剧】第二季01：飞升失败 开局成为人渣
               </h3>
               <div style="display: flex; align-items: center">
                 <div
@@ -2161,15 +2161,15 @@
                   <span style="background: #fff0e3"> 2万点赞 </span>
                 </div>
                 <span
-                  title="海东鉴宝"
+                  title="熟练丶"
                   style="
                     color: lightgray;
                     align-items: center;
                     padding-top: 12px;
                   "
-                  >海东鉴宝</span
+                  >熟练丶</span
                 >
-                <span style="color: lightgray; padding-top: 12px">· 10-9</span>
+                <span style="color: lightgray; padding-top: 12px">· 05-26</span>
               </div>
             </div>
           </li>
@@ -2180,26 +2180,26 @@
               @mouseleave.stop="pauseVideo(4)"
             >
               <img
-                src="../assets/img/视频4.jpg"
+                src="https://i0.hdslb.com/bfs/archive/e5910140923c535afc3571c54cca9cb71f45c185.jpg"
                 style="border-radius: 10px"
                 alt="Video Cover"
                 ref="videoCover4"
               />
-              <video
-                src="../assets/video/视频4.mp4"
-                poster="../assets/img/视频4.jpg"
-                style="border-radius: 10px"
-                autoplay
-                muted
+              <iframe
+                v-if="hoveredVideo === 4"
+                src="https://player.bilibili.com/player.html?bvid=BV1GPVP6PEdj&autoplay=1&high_quality=1&danmaku=0"
+                style="border-radius: 10px; border: 0; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"
+                allowfullscreen
+                scrolling="no"
                 ref="video4"
-              ></video>
+              ></iframe>
             </div>
             <div style="padding-top: 10px">
               <h3
-                title="佛罗里达不养闲人！男子对核武进行改造。让其为自家供电27年"
+                title="取一个好的标题更能吸引观众哦～～"
                 style="font-weight: 400; font-size: 15px"
               >
-                佛罗里达不养闲人！男子对核武进行改造。让其为自家供电27年
+                取一个好的标题更能吸引观众哦～～
               </h3>
               <div style="padding-top: 4px; align-items: center">
                 <!---->
@@ -2234,11 +2234,11 @@
                     <!--]-->
                   </svg>
                   <span
-                    title="佛罗里达记录官"
+                    title="北古橘右京"
                     style="color: lightgray; align-items: center"
-                    >佛罗里达记录官</span
+                    >北古橘右京</span
                   >
-                  <span style="color: lightgray">· 10-9</span>
+                  <span style="color: lightgray">· 05-26</span>
                 </span>
                 <!--]-->
               </div>
@@ -2251,26 +2251,26 @@
               @mouseleave.stop="pauseVideo(5)"
             >
               <img
-                src="../assets/img/视频5.jpg"
+                src="https://i2.hdslb.com/bfs/archive/63976395c0f66ef471e6910d141fb87289cbe507.jpg"
                 style="border-radius: 10px"
                 alt="Video Cover"
                 ref="videoCover5"
               />
-              <video
-                src="../assets/video/视频5.mp4"
-                poster="../assets/img/视频5.jpg"
-                style="border-radius: 10px"
-                autoplay
-                muted
+              <iframe
+                v-if="hoveredVideo === 5"
+                src="https://player.bilibili.com/player.html?bvid=BV1ZT5X6EEvA&autoplay=1&high_quality=1&danmaku=0"
+                style="border-radius: 10px; border: 0; width: 100%; height: 100%; position: absolute; top: 0; left: 0;"
+                allowfullscreen
+                scrolling="no"
                 ref="video5"
-              ></video>
+              ></iframe>
             </div>
             <div style="padding-top: 10px">
               <h3
-                title="AMENG：你好像没见过世面 小海：确实没见过你这么厉害的T"
+                title="【剧情】黑爵士 第一季（1983）01【罗温·艾金森】"
                 style="font-size: 15px"
               >
-                AMENG：你好像没见过世面 小海：确实没见过你这么厉害的T
+                【剧情】黑爵士 第一季（1983）01【罗温·艾金森】
               </h3>
               <div style="display: flex; align-items: center">
                 <div
@@ -2284,15 +2284,15 @@
                   <span style="background: #fff0e3"> 已关注 </span>
                 </div>
                 <span
-                  title="MINSEA最小的海"
+                  title="迷影社"
                   style="
                     color: lightgray;
                     align-items: center;
                     padding-top: 12px;
                   "
-                  >MINSEA最小的海</span
+                  >迷影社</span
                 >
-                <span style="color: lightgray; padding-top: 12px">· 10-1</span>
+                <span style="color: lightgray; padding-top: 12px">· 05-24</span>
               </div>
             </div>
           </li>
@@ -2337,7 +2337,7 @@ import { ref } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination, Navigation, Scrollbar } from "swiper";
+import { Autoplay, Pagination, Navigation, Scrollbar } from "swiper/modules";
 let live = ref(false);
 let game = ref(false);
 let book = ref(false);
@@ -2400,6 +2400,7 @@ export default {
         1: false,
         2: false,
       },
+      hoveredVideo: 0,
       activeTabActivity: "视频动态",
       activeTabHistory: "视频动态",
       activeTabFavorites: "默认收藏夹",
@@ -2429,18 +2430,15 @@ export default {
   },
   methods: {
     playVideo(videoId) {
-      const videoElement = event.target.querySelector("video");
-      const videoCoverElement = event.target.querySelector("img");
-      videoElement.currentTime = 0;
-      videoElement.play();
-      videoCoverElement.style.opacity = "0";
+      const videoCoverElement = event.currentTarget.querySelector("img");
+      if (videoCoverElement) videoCoverElement.style.opacity = "0";
+      this.hoveredVideo = videoId;
       this.isPlaying[videoId] = true;
     },
     pauseVideo(videoId) {
-      const videoElement = event.target.querySelector("video");
-      const videoCoverElement = event.target.querySelector("img");
-      videoElement.pause();
-      videoCoverElement.style.opacity = "1";
+      const videoCoverElement = event.currentTarget.querySelector("img");
+      if (videoCoverElement) videoCoverElement.style.opacity = "1";
+      this.hoveredVideo = 0;
       this.isPlaying[videoId] = false;
     },
   },
@@ -3470,6 +3468,16 @@ export default {
     border-radius: 10px;
     opacity: 1;
     transition: opacity 0.3s ease;
+  }
+  .contentmain ul li .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border-radius: 10px;
+    border: 0;
   }
   .contentmain ul li video:hover {
     cursor: pointer;
