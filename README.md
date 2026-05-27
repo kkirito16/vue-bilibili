@@ -11,7 +11,6 @@
 - **Vue 3**（Composition API + `<script setup>`）
 - **Vite** 构建与本地开发
 - **Pinia** 状态管理（标签页、UI 浮层、视频数据等）
-- **Vue Router** 路由
 - **Element Plus** UI 组件
 - **Swiper** 轮播
 - **Sass** 样式
@@ -42,8 +41,7 @@ src/
 │   └── MainContent/          # 轮播 + 视频推荐流
 ├── composables/useSearch.js
 ├── stores/                   # tabs / ui / video
-├── styles/home-layout.scss
-└── views/HomeView.vue
+└── styles/home-layout.scss
 ```
 
 ## 安装与运行
