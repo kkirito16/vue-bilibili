@@ -1,0 +1,186 @@
+.content {
+  min-width:1512.9px;
+  max-width: 1512.9px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  align-items: flex-start;
+  padding-bottom: 48px;
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiperBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .slide-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .slide-text {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    font-size: 18px;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    display: block;
+    text-indent: 15px; /* 根据需要设置文字最左端距离盒子左端的距离 */
+  }
+
+  .swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .custom-prev,
+  .custom-next {
+    width: 28px;
+    height: 28px;
+  }
+
+  .custom-prev {
+    left: 400px;
+  }
+
+  .custom-next {
+    right: 15px;
+  }
+  .swiper-button-prev {
+    left: 470px;
+    width: 20px;
+    margin-top: 90px;
+    color: rgba(0, 0, 0, 0) !important;
+    background: url("@/assets/img/左箭头.png") center center no-repeat;
+    background-size: 22px 22px;
+    opacity: 0.7;
+  }
+  .swiper-button-next {
+    left: 510px;
+    width: 20px;
+    margin-top: 90px;
+    color: rgba(0, 0, 0, 0) !important;
+    background: url("@/assets/img/右箭头.png") center center no-repeat;
+    background-size: 22px 22px;
+    opacity: 0.8;
+  }
+
+  .contentmain {
+    flex: 5;
+    margin-left: 15px;
+  }
+  .contentmain ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contentmain ul li {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 24px;
+  }
+
+  .contentmain ul li .video-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: 135px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #e3e5e7;
+    cursor: pointer;
+  }
+
+  .contentmain ul li .video-container img,
+  .contentmain ul li .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 6px;
+  }
+
+  .contentmain ul li .video-container img {
+    object-fit: cover;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .contentmain ul li .video-container iframe {
+    z-index: 2;
+  }
+
+  .contentmain ul li .video-info {
+    padding-top: 8px;
+  }
+
+  .contentmain ul li .video-info h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #18191c;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 44px;
+  }
+
+  .contentmain ul li .video-meta {
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #9499a0;
+  }
+
+  .contentmain ul li.video-card--placeholder .video-container img {
+    object-fit: cover;
+  }
+  .changetag {
+    font-size: 12px;
+    display: block;
+    button {
+      height: 90px;
+      width: 40px;
+      padding: 9px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      background-color: white;
+      border: 1px solid #e3e5e7;
+      cursor: pointer;
+      span {
+        padding-top: 5px;
+      }
+    }
+    button:hover {
+      background-color: #e3e5e7;
+    }
+  }
+}
